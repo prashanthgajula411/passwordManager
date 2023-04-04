@@ -1,0 +1,356 @@
+/* .main-bg {
+  background-color: #9ba9cb;
+  height: 100vh;
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+}
+.header-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.header-logo {
+  height: 50px;
+  background-size: cover;
+}
+.password-input-con {
+  background-color: #5763a5;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.password-input-form {
+  background-color: #454f84;
+  padding: 15px;
+}
+.heading {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.password-item-con {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  height: 25px;
+  width: 500px;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+.logo {
+  height: 15px;
+  margin-right: 1px;
+}
+.item-input {
+  height: 15px;
+  border-width: 0px;
+  margin-top: 2px;
+}
+.add-btn-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.btn {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 70px;
+  color: #fff;
+  border-radius: 5px;
+}
+.password-manager-img {
+  height: 250px;
+  width: 350px;
+}
+.password-store-con {
+  background-color: #5763a5;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+.header-store-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.password-search-con {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  height: 25px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+.password-check-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.check-box {
+  height: 15px;
+  width: 15px;
+}
+.check-box-lable {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+} */
+ {
+  font-family: 'Roboto';
+}
+.app-container {
+  background: #9ba9eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.responsive-container {
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 70%;
+  }
+}
+.app-logo {
+  height: 60px;
+}
+.app-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-container {
+  background: #5763a5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.manager-image {
+  width: 300px;
+  order: 1;
+}
+.card {
+  background: #454f84;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .manager-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .manager-image {
+    order: 2;
+  }
+  .card-container {
+    padding: 25px;
+  }
+}
+.form-heading {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.card-responsive {
+  width: 88%;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-responsive {
+    width: 75%;
+  }
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  background: #f8fafc;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.input {
+  width: 100%;
+  background: none;
+  outline: none;
+  border: 0;
+  font-size: 14px;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 16px;
+  }
+}
+.icon-container {
+  border-right: 1px solid #c3caea;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-icon {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-btn {
+  border: none;
+  outline: none;
+  background: #0b69ff;
+  padding: 8px 28px;
+  color: #f8fafc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.passwords-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hr-line {
+  height: 1px;
+  background: #7683cb;
+  border: none;
+}
+.passwords-header-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.search-container {
+  /* width: 200px; */
+  height: 25px;
+  background: #f8fafc;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+}
+.search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 100%;
+  border-right: 2px solid #c3caea;
+}
+.search-icon {
+  height: 18px;
+  width: 18px;
+}
+.search-input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.checkbox-label {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #f8fafc;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-with: 768px) {
+  .checkbox-input {
+    width: 20px;
+    height: 20px;
+  }
+  .checkbox-label {
+    font-size: 16px;
+  }
+}
+
+.no-passwords-image {
+  width: 280px;
+}
+.no-passwords-title {
+  font-size: 18px;
+  text-align: center;
+  color: #f8fafc;
+  font-weight: 500;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .no-password-container {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.results-count {
+  font-size: 10px;
+  padding: 2px 12px;
+  border: 1px solid #c3caea;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+.passwords-list-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
